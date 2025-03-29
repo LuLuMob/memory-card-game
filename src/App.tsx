@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 
 const API_URL = "https://rickandmortyapi.com/api/character"; // URL de la API de Rick and Morty
@@ -75,6 +76,7 @@ const MemoryGame: React.FC = () => {
           ))}
         </div>
       )}
+
     </div>
   );
 };
